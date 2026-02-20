@@ -142,6 +142,6 @@ Packets from Kali → Metasploitable
 - ARP traffic
 - Any other network chatter
 
-<img width="1052" height="834" alt="image" src="https://github.com/user-attachments/assets/c2fcad0a-e450-4d0b-9458-1114fb4de7fa" />
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/c2fcad0a-e450-4d0b-9458-1114fb4de7fa" />
 
 
