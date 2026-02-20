@@ -10,7 +10,6 @@
 ---
 
 ## 📋 Table of Contents
-## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Lab Environment Setup](#-lab-environment-setup)
 - [Network Diagram](#-network-diagram)
@@ -20,7 +19,6 @@
   - [Phase 2: Launching the Attack](#phase-2-launching-the-attack)
   - [Phase 3: Wireshark Analysis](#phase-3-wireshark-analysis)
 
-- [Indicators of Compromise (IOCs)](#-indicators-of-compromise-iocs)
 - [Challenges Faced](#-challenges-faced-and-solutions)
 - [Conclusion](#-conclusion)
   - [Project Summary](#project-summary)
