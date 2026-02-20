@@ -94,13 +94,17 @@ This project simulates a real-world Security Operations Center (SOC) scenario wh
 
 First, ensure all VMs can communicate with each other:
 
-# Ping Metasploitable
+# Ping Kali To Metasploitable
 
 <img width="515" height="169" alt="image" src="https://github.com/user-attachments/assets/73c568a4-c573-4794-818b-77e7cb72b3b9" />
 
 
-# Ping pfSense gateway
+# Ping Kali To pfSense gateway
 
 <img width="515" height="201" alt="image" src="https://github.com/user-attachments/assets/069d27bd-ff0e-4a08-b9cf-4498dfbd91c0" />
+
+# Ping Metasploitable To Kali
+
+<img width="569" height="162" alt="image" src="https://github.com/user-attachments/assets/8ee79ad8-9100-495e-886c-8abf65b763ee" />
 
 
