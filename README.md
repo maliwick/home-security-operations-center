@@ -110,13 +110,13 @@ First, ensure all VMs can communicate with each other:
 
 
 
-### **Step 2: Verify Services on Metasploitable **
+### **Step 2: Setup wireshark **
 
+Open Terminal and hit **sudo wireshark**
+Then select your adapter (eth0)
 
- msfadmin@metasploitable:~$ netstat -tulpn
+<img width="726" height="587" alt="image" src="https://github.com/user-attachments/assets/0e3258a6-71a4-464b-82dc-5d5da4941ed6" />
 
-
-<img width="713" height="468" alt="image" src="https://github.com/user-attachments/assets/efb0af3a-8125-4426-ae52-36ce1d12c20f" />
 
 
 ### Phase 2: Launching the Attack
