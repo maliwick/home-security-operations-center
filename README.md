@@ -72,7 +72,7 @@ This project simulates a real-world Security Operations Center (SOC) scenario wh
 
 ## 🗺️ Network Diagram
 
-<img width="1807" height="2802" alt="Isolated Network Attack Flow" src="https://github.com/user-attachments/assets/ff1660a2-fc97-4f6b-8c6e-daddba29c479" />
+<img width="1000" height="1500" alt="Isolated Network Attack Flow" src="https://github.com/user-attachments/assets/ff1660a2-fc97-4f6b-8c6e-daddba29c479" />
 
 
                 🔴 = Attacker
