@@ -183,6 +183,18 @@ This is the MOST IMPORTANT FILTER for detecting SYN scans.
 5. Sequential port numbers in the list
 
 
+## Challenge : VMs Couldn't Ping Each Other
+
+Problem-  When I first set up the lab, Kali couldn't ping Metasploitable or pfSense.
+Solution- Network adapter settings in VirtualBox/VMware were incorrect. The VMs were on different virtual networks.
+
+<img width="933" height="565" alt="image" src="https://github.com/user-attachments/assets/7d64d0cf-f47e-494b-b1ed-2d2da98fdfc4" />
+
+<img width="933" height="565" alt="image" src="https://github.com/user-attachments/assets/d9377990-5475-4b0a-ae90-bb97b7510b62" />
+
+<img width="933" height="565" alt="image" src="https://github.com/user-attachments/assets/817fb075-a67b-4105-ba1f-72141eec75d6" />
+
+
 
 ## ✅ Conclusion
 
