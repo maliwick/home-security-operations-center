@@ -128,3 +128,22 @@ Then select your adapter (eth0)
 
 <img width="989" height="634" alt="image" src="https://github.com/user-attachments/assets/032e4d69-e4b5-40f9-b913-1cc437058fe5" />
 
+
+### Phase 3: Wireshark Analysis
+
+**Step 4: Apply Display Filters to Find the Scan**
+
+Now we'll use Wireshark's powerful display filters to isolate the port scan traffic.
+
+Filter 1: View All Traffic to Metasploitable
+Packets from Kali → Metasploitable
+
+Packets from Metasploitable → Kali
+
+ARP traffic
+
+Any other network chatter
+
+<img width="1052" height="834" alt="image" src="https://github.com/user-attachments/assets/c2fcad0a-e450-4d0b-9458-1114fb4de7fa" />
+
+
