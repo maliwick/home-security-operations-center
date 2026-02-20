@@ -145,3 +145,8 @@ Packets from Kali → Metasploitable
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/c2fcad0a-e450-4d0b-9458-1114fb4de7fa" />
 
 
+Filter 2: Isolate SYN Packets (The Magic Filter!)
+This is the MOST IMPORTANT FILTER for detecting SYN scans.
+
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/93206e67-7cdb-4c51-b1f8-ac30d6301616" />
+
