@@ -10,9 +10,9 @@
 ---
 
 ## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [Lab Environment Setup](#lab-environment-setup)
-- [Network Diagram](#network-diagram)
+- [Project Overview](#-project-overview)
+- [Lab Environment Setup](#-lab-environment-setup)
+- [Network Diagram](#-network-diagram)
 - [Step-by-Step Execution](#-step-by-step-execution)
 
   - [Phase 1: Environment Preparation](#phase-1-environment-preparation)
