@@ -245,3 +245,8 @@ If I were to extend this project, I would:
    
    # Xmas tree scan
    sudo nmap -sX 192.168.1.100
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 [Your Name]
