@@ -108,9 +108,12 @@ First, ensure all VMs can communicate with each other:
 <img width="569" height="162" alt="image" src="https://github.com/user-attachments/assets/8ee79ad8-9100-495e-886c-8abf65b763ee" />
 
 
+
 **Step 2: Verify Services on Metasploitable**
 
+
 msfadmin@metasploitable:~$ netstat -tulpn
+
 
 <img width="713" height="468" alt="image" src="https://github.com/user-attachments/assets/efb0af3a-8125-4426-ae52-36ce1d12c20f" />
 
