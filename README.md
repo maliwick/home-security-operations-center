@@ -15,14 +15,11 @@
 - [Lab Environment Setup](#-lab-environment-setup)
 - [Network Diagram](#-network-diagram)
 - [Step-by-Step Execution](#-step-by-step-execution)
+
   - [Phase 1: Environment Preparation](#phase-1-environment-preparation)
   - [Phase 2: Launching the Attack](#phase-2-launching-the-attack)
   - [Phase 3: Wireshark Analysis](#phase-3-wireshark-analysis)
-- [Commands Used](#-commands-used-complete-reference)
-- [Wireshark Analysis](#-wireshark-analysis)
-- [Detection Methodology](#-detection-methodology)
-- [Key Findings](#-key-findings)
-- [Screenshots](#-screenshots)
+
 - [Indicators of Compromise (IOCs)](#-indicators-of-compromise-iocs)
 - [Challenges Faced](#-challenges-faced-and-solutions)
 - [Conclusion](#-conclusion)
