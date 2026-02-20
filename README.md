@@ -110,9 +110,8 @@ First, ensure all VMs can communicate with each other:
 
 
 
-### **Step 2:**
+### **Step 2: Verify Services on Metasploitable **
 
-Verify Services on Metasploitable
 
  msfadmin@metasploitable:~$ netstat -tulpn
 
@@ -122,3 +121,10 @@ Verify Services on Metasploitable
 
 ### Phase 2: Launching the Attack
 **Step 3: Perform SYN Scan from Kali**
+
+<img width="640" height="557" alt="image" src="https://github.com/user-attachments/assets/f5a25d74-ad29-4d48-956e-6dcd6155243b" />
+
+**Step 4: Perform Detailed Version Scan**
+
+<img width="989" height="634" alt="image" src="https://github.com/user-attachments/assets/032e4d69-e4b5-40f9-b913-1cc437058fe5" />
+
