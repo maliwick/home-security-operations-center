@@ -149,11 +149,12 @@ Filter 2: Isolate SYN Packets (The Magic Filter!)
 This is the MOST IMPORTANT FILTER for detecting SYN scans.
 
 
-Filter Component	Meaning
-ip.addr == 192.168.1.100	Show packets to/from Metasploitable
-&&	AND (all conditions must be true)
-tcp.flags.syn == 1	Packet has SYN flag set
-tcp.flags.ack == 0	Packet does NOT have ACK flag set
+  Filter Component	       |              Meaning
+  
+ip.addr == 192.168.1.100	 |     Show packets to/from Metasploitable
+&&	                       |    AND (all conditions must be true)
+tcp.flags.syn == 1	       |    Packet has SYN flag set
+tcp.flags.ack == 0	       |    Packet does NOT have ACK flag set
 
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/93206e67-7cdb-4c51-b1f8-ac30d6301616" />
 
