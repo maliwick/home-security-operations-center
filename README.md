@@ -32,6 +32,7 @@
 
 ---
 
+
 ## 📖 Project Overview
 
 This project simulates a real-world Security Operations Center (SOC) scenario where I:
