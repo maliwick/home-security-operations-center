@@ -78,3 +78,29 @@ This project simulates a real-world Security Operations Center (SOC) scenario wh
                 🔴 = Attacker
                 🟢 = Target
                 🔵 = Monitoring Point
+
+
+**Traffic Flow Legend:**
+- 🔴 **Kali (192.168.1.101)** → SYN packets → 🟢 **Metasploitable (192.168.1.100)**
+- 🔵 **Wireshark** captures all traffic at the network level
+
+---
+
+## 🚀 Step-by-Step Execution
+
+### Phase 1: Environment Preparation
+
+**Step 1: Verify Network Connectivity**
+
+First, ensure all VMs can communicate with each other:
+
+# Ping Metasploitable
+
+<img width="515" height="169" alt="image" src="https://github.com/user-attachments/assets/73c568a4-c573-4794-818b-77e7cb72b3b9" />
+
+
+# Ping pfSense gateway
+
+<img width="515" height="201" alt="image" src="https://github.com/user-attachments/assets/069d27bd-ff0e-4a08-b9cf-4498dfbd91c0" />
+
+
