@@ -5,22 +5,25 @@
 ![Tools](https://img.shields.io/badge/Tools-Kali%20Linux%20%7C%20Wireshark%20%7C%20Nmap%20%7C%20pfSense%20%7C%20Metasploitable-green)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner%20Friendly-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+![Date](https://img.shields.io/badge/Date-February%202025-lightgrey)
 
 ---
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Lab Environment Setup](#-lab-environment-setup)
-- [Step-by-Step Execution](#-step-by-step-execution)
 - [Network Diagram](#-network-diagram)
-- [Commands Used](#-commands-used)
+- [Step-by-Step Execution](#-step-by-step-execution)
+- [Commands Used](#-commands-used-complete-reference)
 - [Wireshark Analysis](#-wireshark-analysis)
 - [Detection Methodology](#-detection-methodology)
 - [Key Findings](#-key-findings)
 - [Screenshots](#-screenshots)
-- [Challenges Faced](#-challenges-faced)
+- [Indicators of Compromise (IOCs)](#-indicators-of-compromise-iocs)
+- [Challenges Faced](#-challenges-faced-and-solutions)
 - [Conclusion](#-conclusion)
-- [References](#-references)
+- [References](#-references-and-resources)
+- [Author](#-author)
 
 ---
 
@@ -31,23 +34,39 @@ This project simulates a real-world Security Operations Center (SOC) scenario wh
 - **Acted as a defender**: Captured and analyzed network traffic using Wireshark
 - **Documented findings**: Created a professional report on detecting reconnaissance activity
 
-**Goal**: Understand how attackers perform reconnaissance and how defenders can detect it using packet analysis.
+**Primary Goal**: Understand how attackers perform reconnaissance and how defenders can detect it using packet analysis.
+
+**Secondary Goals**:
+- Master Wireshark filters and statistical analysis
+- Understand TCP handshake mechanics
+- Practice professional security documentation
+- Build a portfolio-worthy cybersecurity project
 
 ---
 
 ## 🖥️ Lab Environment Setup
 
 ### Virtual Machines Used
-| VM | Role | IP Address | Purpose |
-|:---|:---|:---|:---|
-| **pfSense** | Firewall/Gateway | 192.168.1.1 | Network routing and isolation |
-| **Kali Linux** | Attacker | 192.168.1.100 | Running port scans (Nmap) |
-| **Metasploitable** | Victim/Target | 192.168.1.50 | Vulnerable machine being scanned |
+| VM | Role | IP Address | Operating System | Purpose |
+|:---|:---|:---|:---|:---|
+| **pfSense** | Firewall/Gateway | 192.168.1.1 | FreeBSD | Network routing, firewall, and traffic logging |
+| **Kali Linux** | Attacker | 192.168.1.101 | Kali Linux 2024.x | Running port scans using Nmap |
+| **Metasploitable** | Victim/Target | 192.168.1.100 | Ubuntu 8.04 | Vulnerable machine being scanned |
 
 ### Network Configuration
-- **Network Type**: Host-only / Internal Network
+- **Network Type**: Host-only / Internal Network (isolated from internet)
 - **Subnet**: 192.168.1.0/24
-- **DHCP**: Enabled on pfSense
+- **Subnet Mask**: 255.255.255.0
+- **DHCP**: Enabled on pfSense (range: 192.168.1.100 - 192.168.1.200)
+- **Default Gateway**: 192.168.1.1 (pfSense)
+
+### System Specifications
+- **Hypervisor**: VirtualBox / VMware (specify which you used)
+- **Host Machine**: [Your computer specs - optional]
+- **RAM Allocation**: 
+  - Kali: 4GB
+  - Metasploitable: 512MB
+  - pfSense: 1GB
 
 ---
 
