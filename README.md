@@ -149,6 +149,13 @@ Filter 2: Isolate SYN Packets (The Magic Filter!)
 This is the MOST IMPORTANT FILTER for detecting SYN scans.
 
 
+| VM | Role |
+|:---|:---|
+| **pfSense** | Firewall/Gateway |
+| **pfSense** | Firewall/Gateway |
+| **pfSense** | Firewall/Gateway |
+| **pfSense** | Firewall/Gateway |
+
   Filter Component	       |              Meaning
   
 ip.addr == 192.168.1.100	 |     Show packets to/from Metasploitable
