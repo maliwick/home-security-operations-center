@@ -92,6 +92,7 @@ This project simulates a real-world Security Operations Center (SOC) scenario wh
 
 **Step 1: Verify Network Connectivity**
 
+
 First, ensure all VMs can communicate with each other:
 
 # Ping Kali To Metasploitable
@@ -118,3 +119,6 @@ Verify Services on Metasploitable
 
 <img width="713" height="468" alt="image" src="https://github.com/user-attachments/assets/efb0af3a-8125-4426-ae52-36ce1d12c20f" />
 
+
+### Phase 2: Launching the Attack
+**Step 3: Perform SYN Scan from Kali**
