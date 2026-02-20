@@ -52,7 +52,7 @@ This project simulates a real-world Security Operations Center (SOC) scenario wh
 
 ## 🖥️ Lab Environment Setup
 
-### Virtual Machines Used
+## Virtual Machines Used
 | VM | Role | IP Address | Operating System | Purpose |
 |:---|:---|:---|:---|:---|
 | **pfSense** | Firewall/Gateway | 192.168.1.1 | FreeBSD | Network routing, firewall, and traffic logging |
