@@ -10,10 +10,14 @@
 ---
 
 ## 📋 Table of Contents
+## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Lab Environment Setup](#-lab-environment-setup)
 - [Network Diagram](#-network-diagram)
 - [Step-by-Step Execution](#-step-by-step-execution)
+  - [Phase 1: Environment Preparation](#phase-1-environment-preparation)
+  - [Phase 2: Launching the Attack](#phase-2-launching-the-attack)
+  - [Phase 3: Wireshark Analysis](#phase-3-wireshark-analysis)
 - [Commands Used](#-commands-used-complete-reference)
 - [Wireshark Analysis](#-wireshark-analysis)
 - [Detection Methodology](#-detection-methodology)
@@ -22,7 +26,13 @@
 - [Indicators of Compromise (IOCs)](#-indicators-of-compromise-iocs)
 - [Challenges Faced](#-challenges-faced-and-solutions)
 - [Conclusion](#-conclusion)
-- [References](#-references-and-resources)
+  - [Project Summary](#project-summary)
+  - [Key Achievements](#key-achievements)
+  - [What I Learned](#what-i-learned)
+  - [Real-World Applications](#real-world-applications)
+  - [Challenges Overcome](#challenges-overcome)
+  - [Future Improvements](#future-improvements)
+- [License](#-license)
 - [Author](#-author)
 
 ---
@@ -249,4 +259,4 @@ If I were to extend this project, I would:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 [M.T.Malinga]
